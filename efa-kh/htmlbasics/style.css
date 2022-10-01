@@ -1,0 +1,352 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+html, body {
+ height: 100%
+}
+h1, h2, h3, h4, h5, h6, p {
+ margin-bottom: 16px
+}
+
+.parent {
+    height: 600px;
+    width: 100%;
+    /* background-image: url(../images/Screenshot\ 2022-03-23\ 072919.png); */
+    background-color: blueviolet;
+    background-size: cover; 
+    }
+/* section 1 - with brand name, hyper link like home... */
+    .sub1 {
+        height: 50px;
+        background-color: pink;
+    }
+        /* main-frame: for top */
+        .sub1top{
+            height: 50px;
+            width: 100%;
+            border: 1px solid grey;
+            /* background-color: rgb(192, 241, 255); */
+            background-color: white;
+            display: flex;
+            position: fixed;
+
+        }
+            /* yin-yang sign */
+            .circle-logo {
+                height: 50%;
+                width: 2%;
+                margin-top: 13px;
+                margin-left: 20px;
+                margin-right: 5px;
+                background-image: url(https://images.onlinelabels.com/images/clip-art/ClayOgre/ClayOgre_BASIC_YIN-YANG.png);
+                background-size: 90% 90%;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+            /* mixvive- fake website name */
+            .logo-name {
+                height: 40%;
+                width: 30%;
+                margin-top: 7px;
+                /* margin-left: 20px; */
+                /* background-color: rgba(0, 128, 0, 0.473); */
+                font-weight: bold;
+            }
+            /* home,welcome... */
+            .tabs {
+                width: 400px;
+                /* background-color: rgb(129, 82, 22); */
+                display: flex;
+                margin-right: 5px;
+                margin-left: 340px;
+                
+            }
+
+            .tabs-links{
+                height: 40%;
+                font-size: large;
+                display: flex;
+                margin: 0 auto ;
+                margin-top: 15px;
+                /* margin-left: 20px; */
+                /* background-color: rgba(0, 128, 0, 0.473); */
+                font-weight: bold;
+                text-decoration: none;
+                color: black;
+            }
+            /* profile box  */
+            .circle-icon-box{
+                height: 95%;
+                width: 95%;
+                margin: auto;
+                /* background-color: rgba(0, 4, 255, 0.514);  */
+                background-image: url(https://i.pinimg.com/564x/3b/82/40/3b8240cb1cd6c0b14766cc7b77d9dc37.jpg);
+                background-size: 160% 160%;
+                background-repeat: no-repeat;
+                background-position: center;
+                border-radius: 100%;
+                }
+                /* profile box -outline to make pop */
+                .circle-icon-box2{
+                    height: 50%;
+                    width: 2%;
+                    margin-top: 11px;
+                    margin-left: 10px;
+                    background-color: rgb(0, 0, 0); 
+                    border-radius: 100%;
+                    }
+            /* suppose would open more options  */
+            .lines {
+                height: 40%;
+                width: 2%;
+                margin-top: 13px;
+                margin-left: 15px;
+                background-image: url(http://cdn.onlinewebfonts.com/svg/img_113945.png);
+                background-size: 90% 90%;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+
+/* section 2 - includes large img music blog title and black bar  */
+    .sub2 {
+        height: 550px;
+        background-image: url( https://static.billboard.com/files/media/music-crowd-festival-concert-2018-c-billboard-1548-compressed.jpg 
+        );
+        background-size: 100% 80%;
+        background-repeat: no-repeat;
+        background-color: white;
+    }
+        .sub2top {
+            height: 350px;
+            /* background-color: rgba(21, 138, 39, 0.396); */
+        }
+
+            h3{
+                color: blueviolet;
+                font-style: italic;
+                font-size: 150px;
+                text-align: center;
+            }
+
+        .sub2bottom {
+            height: 190px;
+            width: 850px;
+            float: right;
+            background-color: black;
+            border-radius: 20px 50px;
+        }
+
+            .title {
+                color: white;
+                font-size: 50px;
+                margin-left: 20px;
+                margin-bottom: 5px;
+            }
+
+            .middle {
+                height: 50px;
+                /* background-color: palegoldenrod; */
+               display: flex;
+            }
+
+                .middlefront{
+                    height: 50px;
+                    width: 50px;
+                    margin-left: 20px;
+                /* background-color: rgb(23, 174, 108);  */
+                }
+                .middleend{
+                    height: 50px;
+                    width: 750px;
+                /* background-color: rgb(23, 81, 174);  */
+                }
+
+            .end {
+                height: 50px;
+                width: 50px;
+                /* background-color: aqua; */
+                color: white;
+                font-size: 16px; 
+                margin-left: 20px;
+                margin-bottom: 5px;
+            }
+/* section 3- includes music titles and videos */
+    .sub3 {
+        height: 600px;
+        /* background-color: rgb(12, 137, 146); */
+        background-color: azure;
+        display: flex;
+    }
+
+        .stripesbg {
+            display: flex;
+            height: 500px;
+            width: 1100px;
+            background-color: black;
+            margin: 0 auto ;
+            margin-top: 50px;
+            
+        }
+
+            .boxes {
+                height: 500px;
+                width:  230px;
+                background-color: white;
+                margin-right: 5px;
+                align-items: center;
+            }
+
+                .minibox1 {
+                    height: 60px;
+                    width:  200px;
+                    margin: 0 auto ;
+                    margin-top: 20px;
+                    /* background-color: rgb(34, 27, 169); */
+                }
+
+                .textbox2 {
+                    height: 220px;
+                    width:  200px;
+                    margin: 0 auto ;
+                    /* background-color: rgb(27, 169, 93); */
+                }
+
+                .videobox3 {
+                    height: 180px;
+                    width:  200px;
+                    margin: 0 auto ;
+                    /* background-color: rgb(169, 27, 126); */
+                }
+
+    .sub4 {
+        height: 500px;
+        /* background-color: rgb(12, 137, 146); */
+        background-color: azure;
+        display: flex;
+    }            
+
+        .chatbox {
+            align-items: center;
+            height: 450px;
+            width: 750px;
+            border: 1px solid grey;
+            background-color: white;
+            margin: 0 auto ;
+            margin-top: 25px;
+        }
+            /* tile */
+            .chat1 {
+                height: 40px;
+                width: 750px;
+                /* background-color: blue; */
+                color: blueviolet;
+                border: 1px solid grey;
+                background-color: white;
+                font-weight: bold;
+                font-size: 40px;            
+            }
+            /* blank */
+            .chat2 {
+                height: 360px;
+                width: 750px;
+                background-color: lightgrey;
+                /* background-color: rgba(16, 114, 13, 0.452); */
+                display: flex;
+            }
+            /* comment box */
+            .chat3 {
+                height: 50px;
+                width: 750px;
+                /* background-color: rgba(51, 151, 153, 0.452); */
+                border: 1px solid grey;
+                display: flex;
+            }
+
+                .search {
+                height: 36px;
+                width: 520px;
+                margin-top: 7px;
+                border: 1px solid grey;
+                background-color: lightgrey;
+                word-wrap: break-word;
+                /* background-color: rgba(255, 105, 180, 0.507); */
+                }
+
+                .search-box {
+                height: 36px;
+                width: 55px;
+                margin-top: 7px;
+                background-color: lightgrey;
+                border: 1px solid grey;
+                /* background-color: rgba(178, 34, 34, 0.445); */
+                }
+    .sub5 {
+        height: 50px;
+        background-color:  white; 
+        border: 1px solid grey;
+    }
+
+        .end {
+            width: 1265px; 
+            height: 50px; 
+            margin: 0 auto; 
+            /* background-color: #3E3333;  */
+            display: flex;
+        }
+        
+        .end-st {
+            width: 200px; 
+            height: 40px; 
+            padding-top: 5px;
+            /* background-color: greenyellow;  */
+            margin-left: 50px;
+            margin-right: 760px;
+            display: flex;
+        }
+        
+        
+        .end-dis{
+            /* background-color: hotpink;  */
+            width: 200px; 
+            height: 20px; 
+            display: flex;
+        } 
+        
+        .end-en {
+            width: 200px; 
+            height: 40px; 
+            padding-top: 15px;
+            font-size: 7px;
+            color: white;
+            /* background-color: greenyellow;  */
+            margin-left: 50px;
+            display: flex;
+        }
+        
+        .image-st {
+            width: 50px; 
+            height: 40px;
+            margin-right: 0px;
+            border-radius: 10px;
+            background-image: url(https://www.clipartkey.com/mpngs/m/71-717878_clip-art-discord-transparent-transparent-background-discord-logo.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        
+        .image-en {
+            margin-left: 15px;
+            width: 50px; 
+            height: 40px;
+            border-radius: 10px;
+            background-image: url(https://clipartmag.com/images/instagram-clipart-35.jpg);
+            background-size: 125%;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+
+
+
